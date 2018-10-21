@@ -26,9 +26,7 @@ long sieve(long target){
         list[ii] = 'C';
       }
     }
-    if (count_prime==target){
-      return i;
-    }
     i+=2;
   }
+  return i-2;
 }
