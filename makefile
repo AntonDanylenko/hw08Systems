@@ -1,5 +1,5 @@
-all: sieve.o driver.o
-	gcc sieve.o driver.o -lm
+all: sieve.o main.o
+	gcc sieve.o main.o -lm
 
 sieve.o: sieve.h sieve.c
 	gcc -c sieve.c
