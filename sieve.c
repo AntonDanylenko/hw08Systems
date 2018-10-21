@@ -4,7 +4,7 @@
 #include "sieve.h"
 
 long sieve(long target){
-  long length = (long)(target * log(target) * 1.2);
+  long length = (long)(target * log(target) * 1.15);
   char *list = malloc(length);
 
   for(int x=3; x<length; x+=2){
